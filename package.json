@@ -1,0 +1,33 @@
+{
+  "name": "ssr-cookie",
+  "version": "1.0.0",
+  "description": "Facade for server and client side cookies.",
+  "main": "src/ssr-cookie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfed7/ssr-cookie.git"
+  },
+  "files": [
+    "src/**/*.js",
+    "README.md"
+  ],
+  "keywords": [
+    "SSR",
+    "cookie",
+    "js-cookie",
+    "express",
+    "node"
+  ],
+  "author": "Alexander Fedorenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alfed7/ssr-cookie/issues"
+  },
+  "homepage": "https://github.com/alfed7/ssr-cookie#readme",
+  "dependencies": {
+    "js-cookie": "latest"
+  }
+}
