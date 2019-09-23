@@ -1,4 +1,4 @@
-export default class ExpressCookie {
+class ExpressCookie {
     constructor(req, res) {
         this.req = req;
         this.res = res;
@@ -13,3 +13,5 @@ export default class ExpressCookie {
         this.res.clearCookie(name);
     }
 }
+
+module.exports = ExpressCookie;

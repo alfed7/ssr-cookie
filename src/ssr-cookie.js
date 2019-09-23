@@ -1,7 +1,7 @@
-import jsCookie from 'js-cookie'
-import ExpressCookie from './express-cookie'
+const jsCookie = require('js-cookie')
+const ExpressCookie = require('./express-cookie')
 
-export default class SsrCookie {
+class SsrCookie {
     constructor(req = null, res = null) {
         const isServer = req;
         if(isServer) {
@@ -25,3 +25,5 @@ export default class SsrCookie {
 SsrCookie.create = function (req, res) {
     return new SsrCookie(req, res);
 }
+
+module.exports = SsrCookie;
