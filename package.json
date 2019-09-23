@@ -1,6 +1,6 @@
 {
   "name": "ssr-cookie",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Facade for server and client side cookies.",
   "main": "src/ssr-cookie.js",
   "scripts": {
